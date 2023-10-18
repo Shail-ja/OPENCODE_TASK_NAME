@@ -1,0 +1,143 @@
+*{
+    margin: 5%
+    padding: 0%
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    }
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    height:100vh;
+    width: 100vw;
+    background-color:aquamarine;
+    color: black;
+    position: relative;
+}
+#page>#nav{
+    display:flex;
+    align-items: center;
+    padding: 0px 25px;
+    position: relative;
+    z-index: 9;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(13, 142, 95); 
+    font-size: large;
+    color: white;
+}
+#center-nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 500px;
+}
+#center-nav>a{
+    text-decoration: none;
+    color: white;
+    padding: 50px 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+#page>img{
+    height:75%;
+    position: absolute;
+    right: 15%;
+    top: 15%;   
+}
+#page>#text{
+    padding: 100px 5px;
+    height: 40%;
+    width: 35%;
+    position: relative;
+    top: 15%;
+    left: 20%;
+    text-align: center;
+}
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+}
+#page1>#nav{
+    display:flex;
+    align-items: center;
+    padding: 0px 25px;
+    position: relative;
+    z-index: 9;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(13, 142, 95); 
+    font-size: large;
+    color: white;
+}
+#page1>h1{
+    text-align: center;
+}
+#page1>h2{
+    text-align:left;
+    padding-left: 710px;
+}
+#page1>h4{
+    text-align:center;
+    
+    color: gray;
+}
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+}
+#page2>#nav{
+    display:flex;
+    align-items: center;
+    padding: 0px 25px;
+    position: relative;
+    z-index: 9;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(13, 142, 95); 
+    font-size: large;
+    color: white;
+}
+#page2>h1{
+    text-align: center;
+}
+
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine(38, 96, 183);
+}
+#page3>#nav{
+    display:flex;
+    align-items: center;
+    padding: 0px 25px;
+    position: relative;
+    z-index: 9;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(13, 142, 95); 
+    font-size: large;
+    color: white;
+}
+#page3>h1{
+    text-align: center;
+    padding-top: 100px;
+}
+#page3>#links{
+    display: flex;
+    gap: 50px;
+    padding-left: 700px;
+}
+
+
